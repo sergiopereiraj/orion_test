@@ -14,7 +14,6 @@ import { Author } from '../library/entity/product-entity/product-entity';
             password: '12345',
             database: 'library',
             entities:[ Book, Author
-
             ],
             synchronize: true
 
@@ -22,7 +21,4 @@ import { Author } from '../library/entity/product-entity/product-entity';
     ]
 
 })
-export class DatabaseModule {
-
-
-}
+export class DatabaseModule {}

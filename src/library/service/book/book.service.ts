@@ -4,7 +4,6 @@ import { Injectable } from '@nestjs/common';
 export class BookService {
 
     constructor(
-        @Inject
     ){
 
     }
