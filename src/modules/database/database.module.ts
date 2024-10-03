@@ -10,8 +10,8 @@ import { Author } from '../library/entity/product-entity/product-entity';
             type:'mysql',
             host: 'localhost',
             port: 3306,
-            username: 'root',
-            password: '12345',
+            username: '',
+            password: '',
             database: 'library',
             entities:[ Book, Author
             ],
